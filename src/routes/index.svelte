@@ -20,7 +20,7 @@
     <iframe id="ytplayer" type="text/html" width="640" height="360"
     src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" allow="autoplay"
     frameborder="0"></iframe>
-    {:else}    <img id="rr" bind:this={elem} src={"src/rickroll4k.jpeg"} alt="rickroll">
+    {:else}    <img id="rr" bind:this={elem} src={'../../src/rickroll.jpeg'} alt="rickroll">
 
     {/if}
 
