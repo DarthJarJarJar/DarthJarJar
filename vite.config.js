@@ -5,9 +5,9 @@ const config = {
 	plugins: [sveltekit()],
 	server: {
 		fsServe: {
-		  root: './' 
+			root: './'
 		}
-	  }
+	}
 };
 
 export default config;
