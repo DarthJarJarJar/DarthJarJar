@@ -39,6 +39,7 @@
 		overflow: auto;
 		position: absolute;
 		top: 0;
+        left: 0;
 	}
 	body {
 		height: 100vh;
