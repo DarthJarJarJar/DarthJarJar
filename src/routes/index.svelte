@@ -1,5 +1,5 @@
 <script>
-	let opacity = -0;
+	let opacity = 0;
 	let elem;
 	function click() {
 		opacity += 1;
@@ -9,10 +9,10 @@
 
 <body on:click={click}>
 	<div class="heading">
-		<h1>Keep clicking anywhere on the page</h1>
+		<h1>Keep clicking anywhere on the page {opacity}</h1>
 	</div>
 
-	{#if opacity >= 10}
+	{#if opacity >= 7.5}
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<iframe
 			id="ytplayer"
