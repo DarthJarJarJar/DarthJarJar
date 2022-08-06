@@ -44,6 +44,7 @@
 	body {
 		height: 100vh;
 		width: 100vw;
+		overflow: hidden;
 	}
 	img {
 		opacity: 0%;
