@@ -9,7 +9,7 @@
 
 <body on:click={click}>
 	<div class="heading">
-		<h1>Keep clicking anywhere on the page {opacity}</h1>
+		<h1>Keep clicking anywhere on the page</h1>
 	</div>
 
 	{#if opacity >= 7.5}
